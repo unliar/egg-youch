@@ -59,7 +59,8 @@ see [config/config.default.js](config/config.default.js) for more detail.
 ## Example
 
 <!-- example here -->
-> when *app.config.env*==="prod" it
+> when *config.env*==="prod" the response body will be config.jsonError or config.htmlError to provent error messages show to users.
+> when *config.env*='local' or else,the response body will contains error messages 
 
 ## Questions & Suggestions
 

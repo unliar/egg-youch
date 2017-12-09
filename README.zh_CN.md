@@ -53,11 +53,23 @@ exports.youch = {
 };
 ```
 
+```js
+// {app_root}/config/config.default.js
+exports.youch = {
+   env:'local', // prod 切换为生产
+   type: 'html',// json 切换json响应
+   jsonError: {
+    err: 'errors'
+   },
+   htmlError: `<h1>errors</h1>`
+};
+```
 ## 使用场景
 
-- Why and What: 描述为什么会有这个插件，它主要在完成一件什么事情。
+- 为了在开发或者测试的时候使得报错信息更加友好。
 尽可能描述详细。
-- How: 描述这个插件是怎样使用的，具体的示例代码，甚至提供一个完整的示例，并给出链接。
+- How: *请在正式环境配置env为prod,否则错误信息或者代码有被视奸的风险*,。
+
 
 ## 详细配置
 
