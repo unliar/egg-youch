@@ -1,6 +1,6 @@
 {
   "name": "egg-youch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a global error handler plugin for egg,base on youch",
   "eggPlugin": {
     "name": "youch"
@@ -37,7 +37,8 @@
   "files": [
     "app.js",
     "agent.js",
-    "config"
+    "config",
+    "app"
   ],
   "ci": {
     "version": "8, 9"
