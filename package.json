@@ -1,6 +1,6 @@
 {
   "name": "egg-youch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a global error handler plugin for egg,base on youch",
   "eggPlugin": {
     "name": "youch"
@@ -44,12 +44,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-youch.git"
+    "url": "git+https://github.com/unliar/egg-youch.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/unliar/egg-youch/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-youch#readme",
+  "homepage": "https://github.com/unliar/egg-youch#readme",
   "author": "unliar",
   "license": "MIT"
 }
