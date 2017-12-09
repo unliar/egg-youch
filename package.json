@@ -1,6 +1,6 @@
 {
   "name": "egg-youch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a global error handler plugin for egg,base on youch",
   "eggPlugin": {
     "name": "youch"
@@ -10,7 +10,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "youch": "^2.0.5"
+  },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
